@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name":"Apple AirPods",
+        "rate": 4.7,
+        "price": "9527 ₽",
+        "oldPrice": "",
+        "img":"Apple AirPods.png"
+    },
+
+    {
+        "id": 2,
+        "name":"GERLAX GH-04",
+        "rate": 4.7,
+        "price": "6527 ₽",
+        "oldPrice": "",
+        "img":"GERLAX GH-04.png"
+    },
+
+    {
+        "id": 3,
+        "name":"BOROFONE BO4",
+        "rate": 4.7,
+        "price": "7527 ₽",
+        "oldPrice": "",
+        "img":"BOROFONE BO4.png"
+    }
+    
+
+]

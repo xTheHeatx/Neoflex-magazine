@@ -1,0 +1,67 @@
+// main colors
+$main-color1:#EAEAEA;
+$language-color:#FFA542;
+
+$product-cadr-background:#FFFFFF;
+$total-background1:#FFFFFF;
+$footer-background:#FFFFFF;
+
+
+// title colors
+$title-color1:#838383;
+$title-color2:#1C1C27;
+$title-color3:#000000;
+$title-color4:#101010;
+$title-color5:#FFFFFF;
+$title-color6:#AAAAAA;
+
+
+// price colors
+$price-color:#FFA542;
+$old-price-color:#FFCE7F;
+
+
+// element colors
+$order-button-color:#101010;
+$logo-color:#101010;
+$count-buttons-color:#FFCE7F;
+$counts-color:#FFA542;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 10px;
+    line-height: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $main-color1;
+    
+}
+
+.logo-link{
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3.0rem;
+        text-decoration: none;
+        color: $logo-color;
+
+        &:hover{
+            text-decoration: none;
+        }
+}
+
+ins{
+    text-decoration: none;
+}

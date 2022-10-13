@@ -1,0 +1,32 @@
+.basket {
+    padding: 0px 165px 0 92px;
+
+    &__container{
+
+        display: flex;
+        flex-direction: column;
+    } 
+
+    &__title {
+
+        font-weight: 600;
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+        color: $title-color2;
+        margin:  6px 0 3px 46px;
+    }
+
+    &__order-block {
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 13px;
+    }
+
+    &__order-cards{
+        
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 377px 43px;
+    }
+}

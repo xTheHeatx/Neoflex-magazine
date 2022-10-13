@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name":"Apple BYZ S852I",
+        "rate": 4.7,
+        "price": "2927 ₽",
+        "oldPrice": "3527 ₽",
+        "img":"Apple BYZ S852I.png"
+    },
+
+    {
+        "id": 2,
+        "name":"Apple EarPods",
+        "rate": 4.5,
+        "price": "2327 ₽",
+        "oldPrice": "",
+        "img":"Apple EarPods.png"
+    },
+
+    {
+        "id": 3,
+        "name":"Apple EarPods",
+        "rate": 4.5,
+        "price": "2327 ₽",
+        "oldPrice": "",
+        "img":"Apple EarPods-1.png"
+    },
+
+    {
+        "id": 4,
+        "name":"Apple BYZ S852I",
+        "rate": 4.7,
+        "price": "2927 ₽",
+        "oldPrice": "",
+        "img":"Apple BYZ S852I.png"
+    },
+    
+    {
+        "id": 5,
+        "name":"Apple EarPods",
+        "rate": 4.5,
+        "price": "2327 ₽",
+        "oldPrice": "",
+        "img":"Apple EarPods.png"
+    },
+
+    {
+        "id": 6,
+        "name":"Apple EarPods",
+        "rate": 4.5,
+        "price": "2327 ₽",
+        "oldPrice": "",
+        "img":"Apple EarPods-1.png"
+    }
+
+]

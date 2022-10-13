@@ -1,0 +1,114 @@
+.product-card{
+    background: $product-cadr-background;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 407px;
+    width: 350px;
+    margin: 20px 30px 10px 0;
+
+
+    &__img-container{
+        display: flex;
+        align-items: center;
+        width: 219px;
+        height: 237px;
+        object-fit: scale-down;
+
+        margin: 16px 65px 0 65px;
+    }
+
+
+
+
+    &__property{
+        display: flex;
+        flex-direction: row;
+        margin: 53px 18px 27px 20px;
+    }
+
+
+    &__name-rate{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    &__product-name {
+        width: 148px;
+
+        margin: 0 0px 25px 2px;
+    
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        color: $title-color2;
+    }
+    &__rate-block{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__rate-icon{
+        margin-right: 10px;
+    }
+    &__rate-count{
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        color: $title-color1;
+        margin-top: 2px;
+    }
+
+
+    &__price-buy{
+        margin-left: 92px;
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    &__prices{
+        display: flex;
+        flex-direction: column;
+        height: 37px;
+        margin-bottom: 12px;
+    }
+
+    &__price {
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        color: $price-color;
+        margin-bottom: 0.2px;
+    }
+
+    &__old-price {
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        text-decoration-line: line-through;
+
+        color: $old-price-color;
+        margin-bottom: 16px;
+    }
+
+    &__buy-button {
+        cursor: pointer;
+
+        border: none;
+        background: transparent;
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        color: $title-color3;
+
+        margin-right: 15px;
+    }
+}
+
+
+
+
+
+

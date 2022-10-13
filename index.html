@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Магазин наушников</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <section class="header__container">
+            <a href="./index.html" class="header__logo-link logo-link">
+                <span class="header__title">QPICK</span>
+            </a>
+            <div class="header__order-block">
+                <a class="header__liked" href="./index.html">
+                    <img src="./src/img/header/liked.svg" alt="Liked">
+                    <div class="header__liked-count">0</div>
+                </a>
+                <a class="header__basket" href="./basket.html">
+                    
+                    <img src="./src/img/header/basket.svg" alt="Basket">
+                    <div class="header__basket-count" data-counter>0</div>
+                </a>
+            </div>
+        </section>
+    </header>
+    <!-- header -->
+
+    <!-- headphones -->
+    <section class="headphones">
+        <div class="headphones__container">
+            <h1 class="headphones__title">Наушники</h1>
+            <div class="headphones__product-cards" id="headphones">
+                <!--------------------Script---------------------->
+            </div>
+        </div>
+    </section>
+    <!-- headphones -->
+
+    <!-- headphones-wireless -->
+    <section class="headphones-wrls">
+        <div class="headphones-wrls__container">
+            <h1 class="headphones-wrls__title">Беспроводные наушники</h1>
+            <div class="headphones-wrls__product-cards" id="headphonesWrls">
+                <!--------------------Script---------------------->
+            </div>
+        </div>
+    </section>
+    <!-- headphones-wireless -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <section class="footer__container">
+            <a class="footer__logo-link logo-link" href="./index.html">
+                <span class="footer__title">QPICK</span>
+            </a>
+            <nav class="footer__links-block">
+                <a href="./index.html" class="footer__link">Избранное</a>
+                <a href="./index.html" class="footer__link">Корзина</a>
+                <a href="./index.html" class="footer__link">Контакты</a>
+                <a href="./index.html" class="footer__link">Условия сервиса</a>
+                <div class="footer__language-change">
+                    <img class="footer__language-icon" src="./src/img/icons/earth.png" alt="Star" >
+                    <button class="footer__language">Рус</button>
+                    <button class="footer__language">Eng</button>
+                </div>
+            </nav>
+            <div class="footer__social-block">
+                <a class="footer__social-link" href="https://vk.com/"><img src="./src/img/icons/VK.png" alt="VK"></a>
+                <a class="footer__social-link" href="https://t.me/xTheHeatx"><img src="./src/img/icons/Telegram.png" alt="Telegram"></a>
+                <a class="footer__social-link" href="https://wa.me/79960509795"><img src="./src/img/icons/Whatsapp.png" alt="WatsApp"></a>
+            </div>
+        </section>
+    </footer>
+    <!-- footer -->
+    <script type="text/javascript" src="./js/renderHeadphones.js"></script>
+    <script type="text/javascript" src="./js/renderHeadphonesWrls.js"></script>
+    <script type="text/javascript" src="./js/iconCounter.js"></script>
+</body>
+</html>

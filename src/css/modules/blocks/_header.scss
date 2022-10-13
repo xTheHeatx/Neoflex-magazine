@@ -1,0 +1,79 @@
+.header {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    
+    &__container{
+
+        margin-right: 69px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__order-block {
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-link{
+
+        margin: 15px 933px 15px 0;
+    }
+    &__liked{
+
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        margin-right: 35px;
+    }
+
+    &__liked-count{
+
+        margin: -8px 0 0 -8px;
+
+        width: 17px;
+        height: 17px;
+    
+        border: none;
+        border-radius: 10px;
+        
+        background: $counts-color;
+
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: center;
+
+        color: $title-color5;
+    }
+
+    &__basket{
+
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+    }
+
+    &__basket-count{
+        
+        margin: -5px 0 0 -9px;
+
+        width: 17px;
+        height: 17px;
+    
+        border: none;
+        border-radius: 10px;
+        
+        background: $counts-color;
+
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: center;
+
+        color: $title-color5;
+    }
+
+}

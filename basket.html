@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Корзина</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <section class="header__container">
+            <a href="./index.html" class="header__logo-link logo-link">
+                <span class="header__title">QPICK</span>
+            </a>
+            <div class="header__order-block">
+                <a class="header__liked" href="./index.html">
+                    <img src="./src/img/header/liked.svg" alt="Liked">
+                    <div class="header__liked-count">0</div>
+                </a>
+                <a class="header__basket" href="./basket.html">
+                    <img src="./src/img/header/basket.svg" alt="Basket">
+                    <div class="header__liked-count">0</div>
+                </a>
+            </div>
+        </section>
+    </header>
+    <!-- header -->
+
+    <!-- basket -->
+    <section class="basket">
+        <div class="basket__container">
+            <h1 class="basket__title">Корзина</h1>
+            <div class="basket__order-block">
+                <div class="basket__order-cards">
+
+                <!-- order-card -->
+                    <div class="order-card">
+                        <div class="order-card__property-block">
+                            <img class="order-card__img" src="./src/img/products/Apple BYZ S852I small.png" alt="Product">
+                            <div class="order-card__property">
+                                <div class="order-card__tile">Apple BYZ S852I</div>
+                                <div class="order-card__price">2927 <span>₽</span></div>
+                            </div>
+                            <img src="./src/img/icons/delete.png" alt="Delete" class="order-card__delete-icon">
+                        </div>
+                        <div class="order-card__buttons-summ">
+                            <button class="order-card__button" data-action="minus">-</button>
+                            <span class="order-card__count" data-counter>1</span>
+                            <button class="order-card__button" data-action="plus">+</button>
+                            <div class="order-card__summ">2927</div>
+                            <span class="order-card__value"> ₽</span>
+                        </div>
+                    </div>
+                <!-- order-card -->
+                
+                </div>
+                <div class="total">
+                    <div class="total__price-block">
+                        <h1 class="total__title">ИТОГО</h1>
+                        <span class="total__value"> ₽</span>
+                        <span class="total__price">0</span>
+                        
+                    </div>
+                    <button class="total__order-button">Перейти к оформлению</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- basket -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <section class="footer__container">
+            <a class="footer__logo-link logo-link" href="./index.html">
+                <span class="footer__title">QPICK</span>
+            </a>
+            <nav class="footer__links-block">
+                <a href="./index.html" class="footer__link">Избранное</a>
+                <a href="./index.html" class="footer__link">Корзина</a>
+                <a href="./index.html" class="footer__link">Контакты</a>
+                <a href="./index.html" class="footer__link">Условия сервиса</a>
+                <div class="footer__language-change">
+                    <img class="footer__language-icon" src="./src/img/icons/earth.png" alt="Star" >
+                    <button class="footer__language">Каз</button>
+                    <button class="footer__language">Рус</button>
+                    <button class="footer__language">Eng</button>
+                </div>
+            </nav>
+            <div class="footer__social-block">
+                <a class="footer__social-link" href="https://vk.com/"><img src="./src/img/icons/VK.png" alt="VK"></a>
+                <a class="footer__social-link" href="https://t.me/xTheHeatx"><img src="./src/img/icons/Telegram.png" alt="Telegram"></a>
+                <a class="footer__social-link" href="https://wa.me/79960509795"><img src="./src/img/icons/Whatsapp.png" alt="WatsApp"></a>
+            </div>
+        </section>
+    </footer>
+    <!-- footer -->
+    <script type="text/javascript" src="./js/total.js"></script>
+    <script type="text/javascript" src="./js/counter.js"></script>
+    
+</body>
+</html>

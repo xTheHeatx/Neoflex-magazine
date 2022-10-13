@@ -1,0 +1,18 @@
+// main
+@import "./modules/global";
+
+// blocks
+@import "./modules/blocks/header";
+@import "./modules/blocks/headphones";
+@import "./modules/blocks/headphones-wireless";
+@import "./modules/blocks/footer";
+@import "./modules/blocks/basket";
+
+// elements
+@import "./modules/elements/product-card";
+@import "./modules/elements/order-card";
+@import "./modules/elements/total";
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');

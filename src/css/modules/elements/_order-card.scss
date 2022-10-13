@@ -1,0 +1,107 @@
+.order-card{
+    background: $product-cadr-background;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 633px;
+    height: 218px;
+    margin: 0 128px 30px 0;
+
+    display: flex;
+    flex-direction: column;
+    
+    &__property-block {
+        height: 136px;
+        display: flex;
+        flex-direction: row;
+        margin: 18px 28px 17px 19px;
+    }
+
+    &__img {
+        width: 146.53px;
+        height: 136px;
+        margin-right: 23px;
+        object-fit: scale-down;
+    }
+
+    &__property {
+        margin: 58px 0 0 0;
+        width: 396px;
+    }
+
+    &__tile {
+        font-weight: 500;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        color: $title-color2;
+        margin-bottom: 12px;
+    }
+
+    &__price {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: $title-color6;
+    }
+
+    &__delete-icon {
+        object-fit: none;
+        margin-bottom: 118px;
+    }
+    
+    &__buttons-summ {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 28px 17px 16px;
+    }
+
+    &__button {
+
+        width: 30px;
+        height: 30px;
+
+        cursor: pointer;
+    
+        border: none;
+        border-radius: 30px;
+        
+        background: $count-buttons-color;
+
+        font-weight: 400;
+        font-size: 2.7rem;
+        color: $title-color5;
+    }
+
+    &__count {
+        margin: 0 24px 0 24px;
+        width: 20px;
+
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        text-align: center;
+    }
+
+    &__summ {
+        width: 100px;
+        margin-left: 350px;
+
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: right;
+
+        color: $title-color2;
+    }
+    &__value{
+        margin-left: 5px;
+
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: right;
+
+        color: $title-color2;
+
+    }
+}
